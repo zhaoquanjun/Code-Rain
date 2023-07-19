@@ -4,7 +4,6 @@ canvas.width = screen.availWidth;
 canvas.height = screen.availHeight;
 var arr = Array(Math.ceil(screen.availWidth / 10)).fill(0);
 var strArr = 'ZXBZSY01020203'.split('');
-console.log(strArr);
 var rain = function () {
     ctx.fillStyle = 'rgba(0, 0, 0, .05)';
     ctx.fillRect(0, 0, screen.availWidth, screen.availHeight);

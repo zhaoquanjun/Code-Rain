@@ -7,7 +7,7 @@ canvas.height = screen.availHeight
 const arr:number[] = Array(Math.ceil(screen.availWidth / 10)).fill(0)
 
 const strArr:string[] = 'ZXBZSY01020203'.split('')
-console.log(strArr)
+
 const rain = () => {
   ctx.fillStyle = 'rgba(0, 0, 0, .05)'
   ctx.fillRect(0, 0, screen.availWidth, screen.availHeight)
